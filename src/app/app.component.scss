@@ -1,0 +1,45 @@
+header {
+  height: 220px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 220px 1fr 2fr;
+  grid-gap: 50px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 40px;
+  }
+  a:hover {
+    //text-decoration: underline;
+    text-shadow: 0 0 10px #E73175;
+  }
+}
+
+.container {
+  width: 60%;
+  padding-top: 80px;
+  margin-left: 220px;
+  color: white;
+  font-size: 30px;
+  text-align: justify;
+}
+
+.logo {
+  background-image: url("https://image.noelshack.com/fichiers/2019/40/4/1570110481-logo-rush-neon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+

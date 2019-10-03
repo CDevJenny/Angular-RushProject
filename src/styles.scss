@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Raleway Black";
+  src: url("font/Raleway-Black.woff");
+}
+body{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  height: 100vh;
+  background-image: url("https://nsa40.casimages.com/img/2019/10/03/191003035558896003.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "Raleway Black", sans-serif;
+}
+
