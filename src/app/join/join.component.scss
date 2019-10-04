@@ -10,3 +10,44 @@ hr
 p{
   text-shadow: 0 0 35px blueviolet;
 }
+form
+{
+  height: 300px;
+  display: grid;
+  grid-template-rows: 15px 35px 15px 35px 35px;
+  grid-gap: 15px;
+  text-shadow: 0 0 35px blueviolet;
+}
+input{
+  width: 60%;
+}
+input[type=text]{
+  box-shadow: 0 0 5px 5px #613289;
+  border: none;
+  margin-top: 5px;
+}
+input[type=submit]
+{
+  $font-size: 14px;
+  $base-color: #E73175;
+  $background-color: rgba($base-color, .8);
+  $border-color: rgba(#613289, .2);
+  $text-color: rgba(ghostwhite, 1);
+  font: normal 300 #{$font-size}/1.2em;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  color: rgba(ghostwhite, 1);
+  margin: 1px;
+  border-radius: 4px;
+  padding: .4em 1em;
+  font-weight: bold;
+  border: 5px solid $border-color;
+  box-shadow: 0 0 5px 5px #613289;
+  background-color: $background-color;
+  cursor: pointer;
+  text-shadow: 0 0 15px #613289;
+  &:hover {
+    background-color: rgba($base-color, .4);
+    color: $text-color;
+  }
+}
